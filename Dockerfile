@@ -15,9 +15,9 @@ RUN apt-get update \
 # commands.
 WORKDIR /app
 
-# Expose port 443 to the Docker host, so we can access it
+# Expose port 3000 to the Docker host, so we can access it
 # from the outside.
-EXPOSE 443
+EXPOSE 3000
 
 # Configure an entry point, so we don't need to specify
 # "bundle exec" for each of our commands.
